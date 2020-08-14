@@ -1,0 +1,102 @@
+.logo{
+    position: absolute;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 16px;
+    color: #000000;
+}
+.lead{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.ship{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #767676;
+}
+
+.lead1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.lead2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)  { 
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    #button{
+        margin-left: 230px;
+    }
+    #form{
+        margin-right: 300px;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+ #button{
+     margin-left: 230px;
+ }
+ #form{
+     margin-right: 300px;
+ }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #order{
+        margin-left: 450px;
+    }
+    #form{
+        margin-right: 600px;
+    }
+}
+@media (max-width: 992px) { 
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    #order{
+        margin-left: 550px;
+    }
+    
+}
